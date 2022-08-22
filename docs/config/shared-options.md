@@ -225,7 +225,7 @@ export default defineConfig({
       scss: {
         additionalData: `$injectedColor: orange;`
       },
-      styl: {
+      style: {
         additionalData: `$injectedColor ?= orange`
       }
     }
